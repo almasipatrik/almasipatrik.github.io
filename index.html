@@ -10,8 +10,12 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="site.js" defer></script>
     <title>Almási Patrik - Portfolio</title>
   </header>
   <body>
@@ -35,7 +39,7 @@
     <!-- Service Section -->
     <section id="services">
       <div class="services container">
-        <div class="service-top">
+        <div class="service-top" data-aos-duration="1000" data-aos-once="true" data-aos="fade-up">
           <h1 class="section-title">About <span>Me</span></h1>
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum quam
@@ -45,7 +49,7 @@
           </p>
         </div>
         <div class="service-bottom">
-          <div class="service-item" style="background-image:url(./assets/education.jpg)">
+          <div class="service-item" style="background-image:url(./assets/education.jpg)" data-aos="flip-right" data-aos-once="true" data-aos-duration="2000">
             <div class="icon"><img class="center" src="./assets/study.png" /></div>
             <h2>Academic <span class="secondary">Education</span></h2>
             <div>
@@ -55,7 +59,7 @@
             <p>High School Diploma</p>
           </div>
         </div>
-          <div class="service-item" style="background-image:url(./assets/work.jpg)">
+          <div class="service-item" style="background-image:url(./assets/work.jpg)" data-aos="flip-right" data-aos-once="true" data-aos-duration="2000">
             <div class="icon"><img class="center" src="./assets/work.png" /></div>
             <h2>Work <span class="secondary">Experience</span></h2>
             <div>
@@ -63,7 +67,7 @@
             <p>Demonstrator</p>
           </div>
           </div>
-          <div class="service-item centered">
+          <div class="service-item centered" data-aos="flip-right" data-aos-once="true" data-aos-duration="2000">
             <div class="icon"><img class="center" src="./assets/achieve.png"/></div>
             <h2>Award & <span class="secondary">Achievement</span></h2>
             <div>
@@ -71,7 +75,7 @@
             <p>Huawei ICT certification</p>
           </div>
           </div>
-          <div class="service-item" style="background-image:url(./assets/skills.jpg)">
+          <div class="service-item" style="background-image:url(./assets/skills.jpg)" data-aos="flip-right" data-aos-once="true" data-aos-duration="2000">
             <div class="icon"><img class="center" src="./assets/skill.png" /></div>
             <h2>Personal <span class="secondary">Skills</span></h2>
             <div>
@@ -90,16 +94,16 @@
     <!-- Contact Section -->
     <section id="contact">
         <div class="contact container">
-            <div class="flex-item">
+            <div class="flex-item " data-aos="flip-down" data-aos-duration="1000">
                 <a href="https://www.linkedin.com/in/alm%C3%A1si-patrik-3437791b8/" class="cta"> <i class="fa fa-linkedin-square fa-fw"></i> LinkedIn</a>
             </div>
-            <div class="flex-item">
+            <div class="flex-item" data-aos="flip-down" data-aos-duration="1000">
                 <a href="https://www.facebook.com/almasipatrik3/" class="cta"> <i class="fa fa-facebook-f fa-fw"></i> Facebook</a>
             </div>
-            <div class="flex-item">
+            <div class="flex-item" data-aos="flip-down" data-aos-duration="1000">
                 <a href="https://github.com/almasipatrik" class="cta"> <i class="fa fa-github fa-fw"></i> GitHub</a>
             </div>
-            <div class="flex-item">
+            <div class="flex-item" data-aos="flip-down" data-aos-duration="1000">
                 <a href="mailto:almasi.patrik@gmail.com" class="cta"> <i class="fa fa-envelope-o fa-fw"></i> E-mail</a>
             </div>
         </div>

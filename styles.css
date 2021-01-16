@@ -42,7 +42,6 @@ html {
 html,
 body {
   max-width: 100%;
-  overflow-x: hidden;
 }
 
 a {
@@ -265,7 +264,6 @@ a {
   margin: 10px 5%;
   position: relative;
   z-index: 1;
-  overflow: hidden;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
 }
 
@@ -295,6 +293,7 @@ a {
   position: absolute;
   left: 0;
   top: 0;
+  border-radius: 10px;
   height: 100%;
   width: 100%;
   background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
