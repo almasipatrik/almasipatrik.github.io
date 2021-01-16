@@ -322,11 +322,14 @@ a {
 #contact .contact {
   display: flex;
   min-height: 10vh;
-  background-color: black;
   flex-direction: row;
   justify-content: center;
   flex-flow: wrap;
   padding-top: 2rem;
+}
+
+#contact {
+  background-color: black;
 }
 
 #contact .flex-item {
