@@ -260,7 +260,7 @@ a {
   position: relative;
   z-index: 1;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
-  width: 50vh;
+  width: 40vh
 }
 
 #services .service-item span.secondary {
