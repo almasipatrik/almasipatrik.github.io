@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="hu">
-  <header>
+  <head>
     <meta charset="UTF-8" />
     <meta name='viewport' 
     content='width=device-width, initial-scale=1.0, maximum-scale=1.0, 
@@ -13,12 +13,31 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
-      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-      <script src="site.js" defer></script>
     <title>Almási Patrik - Portfolio</title>
-  </header>
+  </head>
   <body>
+    <!-- Header Section -->
+    <section id="header">
+      <div class="header container">
+        <div class="nav-bar">
+          <div class="brand">
+            <a href="#hero"><h1><span>A</span>lmási <span>P</span>atrik</h1></a>
+          </div>
+          <div class="nav-list">
+            <div class="hamburger"><div class="bar"></div></div>
+            <ul id="hamburger-list">
+              <li><a href="#hero" data-after="Home">Home</a></li>
+              <li><a href="#services"  data-after="About">About</a></li>
+              <li><a href="#contact"  data-after="Contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Header Section -->
+
+
+
     <!-- Back To Top Button -->
     <a id="btnScrollToTop" href="#hero"><i class="material-icons">keyboard_arrow_up</i></a>
     <!--End Back To Top Button -->
@@ -74,7 +93,7 @@
             <p>Demonstrator</p>
           </div>
           </div>
-          <div class="service-item centered" data-aos="fade-up" data-aos-once="true" data-aos-duration="2000">
+          <div class="service-item centered" data-aos="fade-up" data-aos-once="true" data-aos-duration="1000">
             <div class="icon"><img class="center" src="./assets/achieve.png"/></div>
             <h2>Award & <span class="secondary">Achievement</span></h2>
             <div>
@@ -117,5 +136,10 @@
         <p class="copyright">Copyright © Almási Patrik 2021</p>
     </section>
     <!-- End Contact Section -->
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="site.js" defer></script>
+
   </body>
 </html>
