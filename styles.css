@@ -37,6 +37,7 @@ html {
   font-family: "San Francisco";
   color: white;
   scroll-behavior: smooth;
+  width: 100%;
 }
 
 a {
@@ -191,6 +192,12 @@ a {
   font-weight: 200;
 }
 
+#services h2 {
+  margin-top: 5px;
+  margin-bottom: 40px;
+  font-size: 1rem;
+}
+
 #services .service-item li {
   color: white;
   font-weight: 200;
@@ -202,6 +209,36 @@ a {
 
 #services .service-item ul {
   padding-left: 1rem;
+}
+
+#services .profile-pic img {
+  width: 500px;
+  height: 700px;
+  padding-left: 30px;
+  padding-bottom: 90px;
+}
+
+#services .resume-button a{
+  font-size: 1.3rem;
+}
+
+#services a {
+  display: inline-block;
+  padding: 5px 10px;
+  color: crimson;
+  border: 3px solid crimson;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  transition: 0.3s ease background-color;
+  transition-property: background-color, color;
+  text-align: center;
+  margin-top: 25px;
+}
+
+#services .cta:hover {
+  color: white;
+  background-color: crimson;
 }
 
 #services .service-item p.secondary {
