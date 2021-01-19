@@ -19,9 +19,9 @@ $(document).ready(function () {
   document.addEventListener("scroll", () => {
     var scroll_position = window.scrollY;
     if (scroll_position > 250) {
-      header.style.backgroundColor = "#29323c";
+      header.classList.add("istop")
     } else {
-      header.style.backgroundColor = "transparent";
+      header.classList.remove("istop")
     }
   });
 });

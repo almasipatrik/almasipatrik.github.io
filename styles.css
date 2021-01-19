@@ -77,8 +77,16 @@ a {
   padding: 0 15px;
 }
 
-#header .brand {
+#header .istop {
+  background-color: #29323c;
+  transition: 1s;
 }
+
+#header {
+  background-color: transparent;
+  transition: 1s;
+}
+
 
 #header .nav-list ul {
   list-style: none;
@@ -440,6 +448,10 @@ a {
   line-height: 2rem;
   font-weight: 300;
   letter-spacing: 0.05rem;
+}
+
+#services .service-top {
+  padding-top: 20px;
 }
 
 #services .services {
